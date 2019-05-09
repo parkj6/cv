@@ -1,0 +1,676 @@
+% !TeX spellcheck = en_US
+% =======================================
+% Achara Tiong - Curriculum Vitae
+% January, 2019
+% =======================================
+
+\documentclass[10pt, letterpaper]{article}
+
+% DEFINE
+\def\name{Achara Tiong}
+\def\footerlink{} %{https://www.ualberta.ca/~achara}
+
+% DOCUMENT LAYOUT
+%\usepackage{enumitem}
+\usepackage[letterpaper]{geometry}
+\geometry{body={6.6in, 9.1in}, left=0.95in, top=0.95in}
+
+% FONT  % Palladio
+\usepackage[sc,osf]{mathpazo}
+\usepackage[T1]{fontenc}
+
+\usepackage{url}
+\usepackage{amssymb}
+
+% FONT SIZE
+%\usepackage{scrextend}
+%\changefontsizes[1em]{9pt}
+
+% PDF SET UP + metadata for PDF properties
+\usepackage[pdftitle={AT_Resume},colorlinks=false]{hyperref}
+\hypersetup{
+	colorlinks  = true,
+	linkcolor   = black, % blue, or black
+	citecolor   = black, % blue, or black
+	filecolor   = black,
+	urlcolor    = black, % MidnightBlue, or black
+	pdfauthor   = {\name},
+	pdfkeywords = {resume}, %, curriculum vitae
+	pdftitle    = {\name: Resume},  % Curriculum Vitae
+	pdfsubject  = {Resume}, %, Curriculum Vitae
+	pdfpagemode = UseNone,
+	%pdfstartview =  {XYZ null null 1.00} %open PDF to zoom 100%
+}
+\hypersetup	{pdfstartview=}
+
+% HEADER AND FOOTER
+\usepackage{fancyhdr}		% E = Even, O = Odd, L = Left, C = Centered, R = Right
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{{\small \name}}
+\cfoot{}
+\rfoot{\thepage}
+
+\renewcommand{\headrulewidth}{0.0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\bfseries\large}
+\subsectionfont{\rmfamily\mdseries\itshape\normalsize}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+\setlength{\parskip}{0pt} %0em
+\setlength{\parsep}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\topmargin}{0pt}
+\setlength{\topsep}{0pt}
+\setlength{\partopsep}{0pt}
+
+% Extra space between table rows (for tabular)
+%\renewcommand{\arraystretch}{1.0}
+
+% SPACING
+% Make lists without bullets and compact spacing
+%\renewenvironment{itemize}{
+%	\begin{list}{}{
+%			\setlength{\leftmargin}{2.0em} %2.0em
+%			\setlength{\itemsep}{0.5em} %0.5em % spacing between items
+%			\setlength{\parskip}{0.0em}  % spacing between outer ident item and inner indent item
+%			\setlength{\parsep}{0.4em} %0.4em
+%		}
+%	}{
+%\end{list}
+%}
+
+%\setlist[enumerate]{itemsep=0.25em}
+%\linespread{0.5} % for line spacing - 0.5 is half
+
+% reduce all the white spaces
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{0pt}{0pt} % left margin, above-skip and below-skip respectively. %\titlespacing{\subsection}{0pt}{*0}{*0}
+%\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+% DOCUMENT
+% =================================================================
+\begin{document}
+%\fontsize{10}{11}
+\selectfont
+
+\begin{center}
+	{{\LARGE \textbf{\name}}, \large\textbf{ P.Eng.}}
+	
+	\vspace{+0.5em}
+	{%2200 NW Jackson Avenue \\
+	Corvallis, OR, USA 97330 \\
+	Phone: (503) 705 -- 3083 \\
+	\vspace{+0.3em}
+	Email:} \href{mailto:tionga@oregonstate.edu}{tionga@oregonstate.edu} \\
+	%\textsc{url}: 
+	\href{http://www.linkedin.com/in/acharationg}{http://www.linkedin.com/in/acharationg}
+	%\href{https://sites.ualberta.ca/~achara/}{ http://sites.ualberta.ca/$\scriptstyle\mathtt{\sim}$achara} \\
+	% http://www.linkedin.com/in/acharationg
+	%Citizenship: Canadian
+\end{center}
+
+\vspace{1em}
+\hrule
+\vspace{0.0em}
+\thispagestyle{empty} %------------------------------------------------------
+
+% SUMMARY
+%\section*{Summary}
+%\hyphenpenalty=10000
+%\begin{itemize}
+	%\item Detail-oriented technical engineer with 10 years of Canadian work experience and global perspectives in the energy, petrochemical, and power industries. Systematic problem-solver and natural researcher with specialized skills in computer modelling, scientific computing algorithms (complex dynamic simulation and optimization), technology and product development. Solid engineering and project management background with production operations and process control experience at manufacturing facilities. %Excellent leadership, communication, and presentation skills.	
+%\end{itemize}
+% Comment \iffalse Enhanced Oil Recovery (EOR) methodologies,\fi 
+
+\vspace{1.0em}
+% EDUCATION
+\section*{Education} %---------------------------------------------------------
+\vspace{5pt}
+	\renewcommand{\arraystretch}{1.1}
+  	\begin{tabular*}{6.66in}{p{0.1in} p{0.4in} p{4.4in}@{\extracolsep{\fill}}r}
+  		{} & {Ph.D.} & {\textbf{Oregon State University}, Corvallis, Oregon, USA} & {Expected 2021}\\
+  		{} & {} & {Industrial Engineering, Minor Statistic} & {}\\
+%  		  		{} & {} & \multicolumn{2}{l}{Manufacturing Systems Engineering option with a minor in Statistics} \\%, MIME Fellow (2017)}\\
+  	\end{tabular*}
+ 	\vspace{2pt}
+ 	\begin{tabular*}{6.66in}{p{0.1in} p{0.4in} p{4.4in}@{\extracolsep{\fill}}r}
+ 		{} & {M.Sc.} & {\textbf{University of Alberta}, Edmonton, Alberta, Canada} & {2006}\\
+ 		{} & {} & {Process Control, Chemical Engineering} & {}\\
+% 		{} & {} & {Thesis: \it{Dynamic Modelling and Control of a Solid Oxide Fuel Cell}} & {}\\
+ 		%{} & {} & { Advisors: Carolina Diaz-Goano and Edward Scott Meadows} & {}\\
+ 	\end{tabular*}
+ 	\vspace{2pt}
+ 	\begin{tabular*}{6.66in}{p{0.1in} p{0.4in} p{4.4in}@{\extracolsep{\fill}}r}
+ 		{} & {B.Sc.} & {\textbf{University of Alberta}} & {2004} \\
+ 		{} & {} & {Chemical Engineering, Computer Process Control} & {} \\
+ 	\end{tabular*}
+ 	\vspace{1pt}
+
+
+% AWARDS AND SCHOLARSHIPS
+%\section*{Awards and Scholarships} %----------------------------------------------------	
+%{\renewcommand{\arraystretch}{1.1}
+%	
+%\begin{tabular}{p{0.67in} p{5.55in}}
+%	{\small 2009 {\scriptsize \&} 2007} & NOVA Chemicals Applause Awards for Contribution to Process Improvements\\
+%	%{\footnotesize 2007} & NOVA Chemicals Applause Award. Awarded for implementing Quicksort application for real-time monitoring of transmitters' body temperature on the legacy process control network to reduce system loading.\\
+%	{\small 2006 {\scriptsize \&} 2004} & Faculty of Graduate Studies and Research Scholarships\\
+%	{\small 2005} & Captain Thomas Farrell Greenhalgh Memorial Graduate Scholarship\\
+%	{\small 2005} & Alberta Minister of Advanced Education Scholarship\\
+%	{\small 2003 {\scriptsize \&} 2001} & Dean's Research Awards, Faculty of Engineering\\
+%	%2001 & Dean's Research Award, Faculty of Engineering, University of Alberta\\
+%	{\small 2000} & First Class Standing, Faculty of Engineering\\
+%	{\small 2000} & Recognition of Outstanding Scholastic Achievement, Golden Key International Honour Society
+%	\end{tabular}
+%	
+%	{\renewcommand{\arraystretch}{1.0} % Set this back to what it was before
+
+% RESEARCH INTEREST
+\section*{Research Interests} %---------------------------------------------------------
+ 	\vspace{5pt}
+\begin{itemize}
+	\item Optimization, network design, facility location, and linear programming with commercial applications in the energy, transportation, and logistics industries.
+	%\item Operations Research, Simulation, Optimization, Scheduling, Logistics.
+	%, Transportation and Logistics  data analytics, mathematical modelling, with emphasis on energy and industrial applications, Data Mining, Machine Learning,
+\end{itemize}
+
+\vspace{8pt}
+% RESEARCH EXPERIENCE
+\section*{Research Experience} %------------------------------------------------------
+\renewcommand{\arraystretch}{1.0}
+ 	\vspace{5pt}
+	\textbf{Oregon State University}, School of Mechanical, Industrial, and Manufacturing Engineering
+	\vspace{-2pt}
+	\begin{itemize}
+		\itemsep-0.2em 
+		\item[\tiny$\bullet$] \textbf{Ph.D. Research, } Resilient network design of interdependent critical infrastructures under disruptions. \\Develop an optimization model and resilience metrics for the interdependent networks to locate new facilities while meeting system resilience requirement under disruptions  \hfill 2017 -- Present
+		\vspace{3pt}
+		\item[\tiny$\bullet$]\textbf{Graduate Research Assistant, } Develop the yield optimization model for the low-enriched Uranium fuel fabrication process. Provide yield analysis under various production scenarios to help guide the process development. Sponsor: Pacific Northwest National Laboratory, Richland, WA. \hfill 2018 -- Present
+	\end{itemize}
+	\textbf{University of Alberta}, Department of Chemical and Materials Engineering
+	\vspace{-2pt}
+	%\begin{itemize}
+	%\item \textbf{University of Alberta}, Department of Chemical and Materials Engineering
+	\begin{itemize}
+		\itemsep-0.1em 
+		\item[\tiny$\bullet$] \textbf{M.Sc. Research, }Dynamic Modelling and Control of a Solid Oxide Fuel Cell (SOFC) \hfill 2004 -- 2006
+		%\textbf{M.Sc. Research, } {\it\textbf{Dynamic Modelling and Control of a Solid Oxide Fuel Cell}}, 2004 -- 2006
+%		\begin{itemize}
+%			\item[\tiny$\bullet$] Mathematical modelling of coupled partial differential equations (PDEs) representing transport phenomena of SOFC operations and simulation of transient voltage responses to changes in input variables.
+%			\item[\tiny$\bullet$] Derived low-order SOFC model and implemented feedback control scheme to maintain output voltage under varying load currents and analyzed controller's performance.
+%		\end{itemize}
+%		\item[\tiny$\bullet$] \textbf{Undergraduate Research, }Online Process Monitoring and Control Performance Assessments \hfill 2003	
+
+		%\textbf{Undergraduate Research, }{\it\textbf{Online Process Monitoring}}, Winter 2003	
+%		\begin{itemize}
+%			\item[\tiny$\bullet$] Analyzed and evaluated the performance of proportional-integral-derivative (PID) controllers for temperature, flow, and level controls in a multi-tank process using commercial software co-developed by the research group. 
+%			%\item [\tiny$\bullet$] Managed the software integration into existing control systems and historian database. %through collaboration with faculty, graduate students, and vendor.
+%		\end{itemize}
+%		\item[\tiny$\bullet$] \textbf{Undergraduate Research, }Real Time Control of a Continuous Stirred Tank Reactor \hfill 2001
+		
+		%\textbf{Undergraduate Research, }{\it\textbf{Real Time Control of a Continuous Stirred Tank Reactor}}, Winter 2001
+%		\begin{itemize}
+%			\item[\tiny$\bullet$] Conducted a chemical reaction experiment, monitored reaction kinetics, and calculated the specific reaction rate constant and conversion rate in real time through solution conductivity measurements. %between sodium hydroxide and ethyl acetate in a bench scale reactor under varying flow rates and concentrations.
+%			%\item[\tiny$\bullet$] Calculated the specific reaction rate constant and conversion rate in real time through monitoring of reaction kinetics and solution conductivity.
+%		\end{itemize}
+	\end{itemize}
+%\end{itemize}
+%\vspace{-5pt}
+
+% WORK EXPERIENCE
+\vspace{8pt}
+\section*{Professional Experience} %------------------------------------------------------
+% GE
+\vspace{5pt}
+\begin{tabular*}{6.65in}{l@{\extracolsep{\fill}}r}
+	{\textbf{General Electric}} & {Calgary, Alberta} \\
+	{{Application Engineer, GE Heavy Oil Solutions}} & {March 2015 -- July 2016}	
+\end{tabular*}
+
+%\vspace{-2pt}
+
+	%\item \textbf{General Electric Company}, Calgary, AB, Canada
+	%\\Application Engineer, Heavy Oil Solutions, GE Power and Water, 03/2015 -- 07/2016
+	
+	\begin{itemize}
+		\item[\tiny$\bullet$] Lead technical liaison between GE Global Research and industry partners on innovative technology and new product co-development with commercial value for Power and Oil \& Gas businesses. Successfully delivered {\textdollar}USD 3.2MM of R\&D funding to the company.
+		
+		\item[\tiny$\bullet$] Assessment of new technologies for GHG reduction, enhanced oil recovery methods, water treatment, power generation, and energy conversion including engineering economics analysis.
+		
+		%\item[\tiny$\bullet$] Assessment of new technologies for enhanced oil recovery methods, evaporative and membrane water treatment,  power generation, combined heat \& power cogeneration, and energy conversion including extensive analysis of heat \& mass transfer of multiphase systems and thermodynamics of steam and gas power cycles.
+		%\item[\tiny$\bullet$] Technology co-development between GE Global Research and industry partners: radio frequency heating, $CO_{2}$ capture and sequestration, boiler efficiency, optical \& ultrasonic sensors for multiphase flow, and production planning analytics (bitumen production forecast and steam allocation optimization.)
+		
+		%\item[\tiny$\bullet$] Project management of GE GHG Open Innovation Challenges and advised contest winners on practical applications of system identification of steam generator, flue gas heat recovery, organic Rankine cycle, thermoacoustic heat engine, and plate-fin heat exchanger design in oil processing facilities.
+		%\item[\tiny$\bullet$] Literature reviews for technology acquisition, preliminary equipment sizing, estimation of capital \& operating costs, and business case development for pilot feasibility studies and market sizing.  
+		%\item[\tiny$\bullet$] Staff orientation and training on Canadian heavy oil extraction processes and technology.
+		
+		%		\item Collaborate with GE Oil \& Gas Technology Center on predictive analytics initiatives such as data mining, discrete event simulation, and Steam Assisted Gravity Drainage (SAGD) production optimization, to improve oil recovery with less steam and ultimately increase the net present value of the projects.		
+		
+%		\item[\tiny$\bullet$] Spearheaded a strategic marketing initiative to integrate GE product lines across its businesses to improve cost, schedule, and project execution of a standardized thermal oilsands facility design.\\
+	\end{itemize}
+%As an application engineer at GE customer innovation center in Western Canada, I was the technology development liaison between GE Global Research and the oil & gas industry partners to co-develop products and services that provide solutions to customers and commercial values to GE businesses. My contribution to the team resulted in the successful delivery of USD 3.2MM of research and development funding to various GE research programs. I was also a project manager of the GE GHG Ecomagination Challenge, an open technology contest that offered seed funding to global inventors to further develop innovative solutions for reducing GHG emission in the Canadian oil & gas industry. My responsibilities included assessing new technologies for oil extraction & recovery methods, water treatment, power generation, energy conversion, and analyzing the project economics. I conducted literature reviews for technology acquisition, estimated capital & operating costs for project feasibility studies, and developed business cases for new products.  Additionally, I provided internal staff orientation and training on oil extraction processes and technologies.
+
+% LEL
+
+\begin{tabular*}{6.655in}{l@{\extracolsep{\fill}}r}
+	{\textbf{Laricina Energy}} & {Calgary, Alberta} \\
+	{{Liaison Engineer, Simulation Software and Model Development Team}} & {November 2012 -- February 2015}	
+\end{tabular*}
+
+%\vspace{-2pt}
+
+	%\item \textbf{Laricina Energy Ltd.}, Calgary, AB, Canada
+	%\\Liaison Engineer, Simulation Software Development Team, 11/2012 -- 02/2015
+	\begin{itemize}	
+		\item[\tiny$\bullet$] Contributed to the development of OASIS, a cloud-based simulation software with problem-solving environment for bitumen production optimization and enhanced oil recovery technology.
+		
+		\item[\tiny$\bullet$] Built components of mathematical models and scientific computing algorithms for numerical solutions to PDEs representing complex, highly nonlinear, and time-dependent thermal reservoir simulations.
+				
+%		\item[\tiny$\bullet$] Developed operational optimization models using linear programming (bitumen blending and transportation), integer programming (cyclic-steam injection scheduling), and non-linear constrained optimization (well tubing length design).
+
+	\end{itemize}
+		
+		%\item[\tiny$\bullet$] Built components of mathematical models to solve for the numerical solution of partial differential equations (PDEs) representing complex, highly non-linear multiphase \& multicomponent systems in dynamic reservoir simulation (black-oil, steam-flooding, steam-assisted gravity drainage, and wellbore multiphase flow).
+		% complex, highly non-linear and numerically challenging multi-phase flow
+		% an object-oriented problem-solving environment for the numerical solutions of partial differential equations
+		
+		%\item[\tiny$\bullet$] Solved practical multi-disciplinary optimization problems: bitumen-diluent blending and transportation (linear programming), steam injection scheduling (integer programming using genetic algorithm), well tubing length design (non-linear constrained optimization interior line search), geological fingerprinting, well deviation, and well log data analysis. 
+		%\item[\tiny$\bullet$] Analyzed and specified requirements, developed algorithms, advised on numerical techniques and solutions to address I/O issues, suitability of GUIs, and user work flows. 
+		%\item[\tiny$\bullet$] Assigned work priorities, supervised testing, and prepared documentation. Conducted user training courses and external product demo.
+
+	
+	%	\begin{itemize}
+	%		\item Collaborated with team of engineers and software developers to deliver OASIS, Laricina's next generation simulation package that enabled new technology development and production \mbox{optimization}.
+	%		
+	%		\item Developed numerical models involving non-linear systems of Partial Differential Equations (PDEs) such as black-oil simulation, steam-flood EOR, SAGD dynamic reservoir simulation, and wellbore multiphase flow model.  Solved non-linear constrained optimization problems such as steam injection scheduling (integer optimization using genetics algorithm), well tubing length design (non-linear optimization interior line search), geo-fingerprinting, and well deviation.
+	%		
+	%		\item Activities included analyzing and specifying requirements, developing algorithms, providing advice related to different numerical techniques and a wide range of solutions to address I/O issues, suitability of Graphical User Interfaces (GUIs), and user work flows.	
+	%		
+	%		%\item Developed an economic model for bitumen-diluent blending to maximize revenue from blend sales by optimizing blend density and volume per sales terminal, yielding an improvement of up to \textdollar{USD} 8 per cubic meter of blended bitumen.
+	%		
+	%		\item Promoted the use of OASIS through technical presentations for corporate audience, conducted internal training workshops for engineers, and demonstrated software capabilities to external companies.
+	%		
+	%		%\item Prioritized a list of software features to meet the needs of end users. Developed a ranking system to prioritize workload for software developers to meet needs of end users.
+	%		
+	%		%\item Conducted internal training workshops and external product demonstrations.
+	%		
+	%		%\item Identified and developed a process to optimize production data analysis for leadership and engineers.  Improved time efficiency by implementing VBA Excel scripts using PI SDK library, resulting in up to 20% of time savings.
+	%		
+	%	\end{itemize}
+
+%\newpage
+%I was a liaison between the engineering user group and the development team of cloud-based simulation software for solving the highly-complex numerical problems in oil recovery operations.  I collaborated across the team of software developers, reservoir engineers, and geologists to build mathematical models and scientific computing algorithms for thermal reservoir simulations which model results were incorporated in the company's operational guideline.  The software was developed in-house, providing the company with a competitive edge to implement the solutions that are superior to commercial ones.  In this role, I also analyzed and specified software requirements, developed algorithms, advised on numerical techniques and GUIs, and maintained documentations.  In addition, I conducted training courses for engineering users within the company and provided a product demonstration to prospective external buyers.
+\newpage
+% SU
+\begin{tabular*}{6.655in}{l@{\extracolsep{\fill}}r}
+	{\textbf{Suncor Energy}} & {Calgary, Alberta} \\
+	{{Process Control Engineer}} & {March 2011 -- November 2012}	
+\end{tabular*}
+
+%\vspace{-2pt}
+
+	\begin{itemize}
+	%\item \textbf{Suncor Energy Inc.}, Calgary, AB, Canada
+	%\\Process Control Engineer, 03/2011 -- 11/2012		
+		\item[\tiny$\bullet$] Plant-wide performance assessment and continuous improvement of regulatory process control loops through closed-loop identification to reduce process variability at bitumen production facilities.
+		\item[\tiny$\bullet$] Root cause analysis of process upset and equipment failure including implementation of change management resulting in 40\% improvement in process reliability ({\textdollar}USD 4.4MM savings of opportunity cost for production loss). Experienced with working in remote, fly-in/fly-out camp environment.
+%		\item[\tiny$\bullet$] Established process automation's key performance indicators (KPIs) according to industry benchmarks, prioritized developmental areas, and prepared stewardship reports for senior management.
+		%\item[\tiny$\bullet$] Mentored two undergraduate chemical engineering students in data collection and interpretation of KPIs.
+	\end{itemize} 
+	
+	%	\begin{itemize}
+	%		\item Managed the installation of process control monitoring software, assessed controllers' performances, and fine-tuned PID controller settings to reduce process variability and improve equipment lifespan.  Achieved 15\% reduction in the number of control loops in abnormal mode at Firebag facilities in 1 year.
+	%		
+	%		\item Coordinated multidisciplinary team at Suncor's Firebag SAGD facilities to investigate root causes of process trips and equipment failures and implemented change management resulting in 40\% reduction in trip frequency over 1.5 years, or {\textdollar}USD 4.4MM of savings in loss production.
+	%		
+	%		\item Produced work under time pressure and met tight deadlines.  Completed Construction Work Packages for Distributed Control System (DCS) projects in two weeks and delivered in time for plant turnaround with flawless execution.
+	%		
+	%		\item Developed and tracked Process Automation's Key Performance Indicators (KPIs) for SAGD facilities to communicate strategy and foster alignment across departments. \\
+	%		
+	%		%\item Supervised and mentored co-op students in tracking Key Performance Indicators (KPIs) for in situ facilities.  Developed KPI dashboard and presented stewardship report to leadership on a monthly basis. \\	
+	%	\end{itemize}
+% As a process control engineer, I provided process automation and continuous improvement support to reduce process variability at the company's rural bitumen production facilities in Northern Canada.  I applied statistical analysis to determine the root cause of process upsets and equipment failure then advised the process operations team to implement change management resulting in 40% improvement in process reliability (USD 4.4MM savings of opportunity cost for production loss annually).  In this role, I gained valuable experience of working in remote, fly-in/fly-out camp environment.  At a corporate level, I established process automation's key performance indicators (KPIs) and standardized the metrics across the company's multiple facilities. The KPIs were compared against the industry benchmark and used to prioritize developmental areas and capital decision, e.g., system in-place upgrade vs. migration, for senior management.
+
+
+% NOVA	
+\begin{tabular*}{6.655in}{l@{\extracolsep{\fill}}r}
+	{\textbf{NOVA Chemicals}} & {Joffre, Alberta} \\
+	{{Process Control Engineer, Process Engineer, and Optimization Engineer}} & {August 2006 -- February 2011}	
+\end{tabular*}
+
+%\vspace{-2pt}
+
+	%%\begin{itemize}
+	%\textbf{NOVA Chemicals Corporation}, Joffre, AB, Canada
+	%\\Process Control Engineer, Process Engineer, and Optimization Engineer, 08/2006 -- 02/2011
+	\begin{itemize}
+	
+		\item[\tiny$\bullet$] Knowledge of ethylene and polyethylene manufacturing and variability control of continuous and batch processes with hands-on experience of schedule-driven production operations.
+			
+		\item[\tiny$\bullet$] Process optimization via first principles and empirical modelling, including model predictive control of multivariate systems (polyethylene reactors, ethylene furnaces, and distillation columns) and profit optimization model of ethylene production using equation-oriented approach. %highly coupled non-linear 
+				
+%		\item[\tiny$\bullet$] Plant control performance improvements through regulatory and multi-variable control strategies, control application programming, and operator's graphics design.
+	\end{itemize}		
+		%\item[\tiny$\bullet$] Experienced in control language programming and data structure.
+
+		%\item[\tiny$\bullet$] Provided Distributed Control System (DCS) support through regulatory and multi-variable control, tag configuration, control application programming, operator's graphics design (Human-Machine Interface), system integrity monitoring, and database management.
+		%\item[\tiny$\bullet$] Simulated energy-integrated process models of ethylene plants and optimized profit objective function within constraint limits to reduce variable costs and improve yield of ethylene production.  
+		%\item[\tiny$\bullet$] Collaborated with Research \& Technology Center on polyethylene reactor runtime extension project and built independent process model of fluidized bed polymerization reactor to predict fouling rate for unit outage decision and validated results with internal inspection. % and new product development.
+		%\item[\tiny$\bullet$] Managed the hiring of a process control engineering student intern and provided direct supervision, mentorship, and performance evaluation for the work term.
+		
+		%		\item Knowledge of gas-phase UNIPOL\textsuperscript{\textsc{tm}}, solution-phase SCLAIRTECH\textsuperscript{\textsc{tm}} polyethylene manufacturing and ethane cracking processes.
+		%				
+		%		\item Developed energy--integrated variable cost optimization models for ethylene plants using Aspen EO modelling.  Achieved a variable cost savings of {\textdollar}USD 1.7MM per year after implementing the operating conditions that optimized the model's objective function (cost).
+		%		
+		%		%\item Developed an application for control room operators to record daily process constraints and analyzed data for management to prioritize capital debottleneck project.
+		%		
+		%		%\item Developed graphical trends of leading indicator for product specification on operator's control panel to assist operations with their decision making process in the upcoming product transition.
+		%		
+		%		%\item Provided daily plant support, facilitated HAZOP and SQRA meetings, and acquired process operator experience. 
+		%		
+		%		%\item Teamed with optimization group to develop and simulate variable cost optimization models for the energy-integrated ethylene plants using Equation-Oriented modelling.
+		%		
+		%		%\item Communicated daily with vendor’s representative via teleconference call.  Followed through with all action items and completed the model within the planned time frame.
+		%		
+		%		%\item Presented model results weekly to the area work team.  The process adjustment led to a sustainable improvement in the variable cost savings of \textdollar{CAD} 200/hour.
+		%		
+		%		%\item Provided contact engineering support for the reaction area work team.  Reported production status to corporate level daily.  Facilitated HAZOP and SQRA.  Supported capital project during reactor unplanned outage.  %Operating experience with on-shift team.
+		%		
+		%		%\item Collaborated with research scientists to troubleshoot low reactor run time due to heat exchanger and bed plate fouling.  Performed Aspen Plus simulation to predict the fouling rate and determine the optimal outage schedule. \\
+		%		
+		%		%\item Trusted by mentor to provide vacation coverage in catalyst and reaction areas.  Improved reproducibility of special grade resins by selecting the right batch of catalyst and avoided early reactor outage.  Award received in recognition of catalyst selection.
+
+	
+	%	\begin{itemize}
+	%		\item Provided DCS support through tag configuration, advanced control application programming, operator's graphics update, Human-Machine Interface (HMI) design using Abnormal Situation Management (ASM) standards, and system integrity monitoring.  Proficient in regulatory control and multi-variable control applications.
+	%
+	%		\item Administered DCS and process alarm databases and coordinated the modification of process tags on operational historian server.
+	%		
+	%		%\item Updated documentation for P\&IDs, control narratives, logic diagrams, and Standard Operating Procedures.
+	%
+	%		%\item Modified system graphics and subpictures in Honeywell GUS and US environments.  Adhered to Abnormal Situation Management (ASM) principles.  Also qualified for Honeywell eXperion Human-Machine Interface (HMI-Web) design.
+	%		
+	%		%\item Facilitated Management of Change (MOC) process, risk assessment, and incident investigations.
+	%
+	%		%\item Prioritized work based on business need and communicated with individuals at all levels of the organization (management, engineers, operations, technicians and technologists) to execute projects safely and effectively.
+	%
+	%		%\item Demonstrated leadership skills through co-op students hiring process, mentorship, and performance evaluation.
+	%		
+	%		\item Experienced with process operations, commissioning, turnarounds, and capital projects involving process debottlenecking and facility expansion. 
+	%		
+	%		%\item Experience with, alarm worst actor resolution, alarm priority setting, and Alarm Objective Analysis (AOA).  Utilized AOA to develop cause, consequence, and corrective action for operators and documented the information in alarm database.
+	%		
+	%		%\item Supported DCS scope of work in capital projects and led Management of Change (MOC) process.  Worked with I\&E and FSC specialists and external contractors on a regular basis.  Working knowledge of P\&IDs.
+	%		
+	%		%\item Dedicated to safe work practices.  Involved in HAZOP and facilitated risk assessment.  Led/participated in DCS-related incident investigations and addressed root cause.  Completed assigned recommendations within target date.
+	%		
+	%		%\item Worked with multi-disciplinary team to execute projects safely and effectively during planned and unplanned outages.  Prioritized work based on business need.
+	%		
+	%		%\item Assessed area of operational/business improvements and initiated changes.  Carried out frequent dialogues with the team to determine upstream/downstream impacts of proposed changes.  Provided high quality work with good accuracy and delivered in a timely fashion.  Received many recognition awards for the dedication.
+	%		
+	%	\end{itemize}
+	
+	%\item
+	%	{\emph{Process Control Engineer, Process Engineer, and Optimization Engineer EIT}}
+	%	{\emph{2006 -- 2009}}
+	%	\begin{itemize}
+	%		\item Knowledge of gas-phase UNIPOL\textsuperscript{\textsc{tm}}, solution-phase SCLAIRTECH\textsuperscript{\textsc{tm}} polyethylene manufacturing and ethane cracking processes.
+	%				
+	%		\item Developed energy--integrated variable cost optimization models for ethylene plants using Aspen EO modelling.  Achieved a variable cost savings of {\textdollar}USD 1.7MM per year after implementing the operating conditions that optimized the model's objective function (cost).
+	%		
+	%		%\item Developed an application for control room operators to record daily process constraints and analyzed data for management to prioritize capital debottleneck project.
+	%		
+	%		%\item Developed graphical trends of leading indicator for product specification on operator's control panel to assist operations with their decision making process in the upcoming product transition.
+	%		
+	%		%\item Provided daily plant support, facilitated HAZOP and SQRA meetings, and acquired process operator experience. 
+	%		
+	%		%\item Teamed with optimization group to develop and simulate variable cost optimization models for the energy-integrated ethylene plants using Equation-Oriented modelling.
+	%		
+	%		%\item Communicated daily with vendor’s representative via teleconference call.  Followed through with all action items and completed the model within the planned time frame.
+	%		
+	%		%\item Presented model results weekly to the area work team.  The process adjustment led to a sustainable improvement in the variable cost savings of \textdollar{CAD} 200/hour.
+	%		
+	%		%\item Provided contact engineering support for the reaction area work team.  Reported production status to corporate level daily.  Facilitated HAZOP and SQRA.  Supported capital project during reactor unplanned outage.  %Operating experience with on-shift team.
+	%		
+	%		%\item Collaborated with research scientists to troubleshoot low reactor run time due to heat exchanger and bed plate fouling.  Performed Aspen Plus simulation to predict the fouling rate and determine the optimal outage schedule. \\
+	%		
+	%		%\item Trusted by mentor to provide vacation coverage in catalyst and reaction areas.  Improved reproducibility of special grade resins by selecting the right batch of catalyst and avoided early reactor outage.  Award received in recognition of catalyst selection.
+	%		
+	%	\end{itemize}
+	
+%\end{itemize}
+%In my first industry experience postgraduate, I entered a new-engineer rotation program where I had the opportunities to explore different engineering roles for a duration before final placement.  As a process engineer, I worked under the supervision of senior engineers to troubleshoot day-to-day process problems associated with polyethylene reactors and catalyst production.  I reported production status to corporate level daily and collaborated with the product development group to introduce new polymer materials in the production process.  As a process optimization engineer, I worked closely with an internal engineering team and external consultants to develop the energy-integrated process optimization models of multiple ethylene facilities.  The model results were validated by a reduction in energy cost and an improvement in ethylene product yield after changes were implemented.  I established my career as a process control engineer where I provided daily distributed control system support of the ethylene and polyethylene manufacturing process through the regulatory and multi-variable controls, device tag configuration, control application programming, operator's graphics design (Human-Machine Interface), asset integrity monitoring, and database management.  At NOVA Chemical, I gained knowledge of ethylene and polyethylene manufacturing and variability control of continuous and batch processes with hands-on experience of schedule-driven production operations.
+
+
+\vspace{8pt}
+% TEACHING EXPERIENCE
+\section*{Teaching Experience} %------------------------------------------------------
+\vspace{5pt}
+{\renewcommand{\arraystretch}{0.5}
+\begin{itemize}
+	\item[\tiny$\bullet$] {\it{Statistical Quality Control}}, Upper-level undergraduate laboratory, OSU MIME, Fall 2017.
+	\item[\tiny$\bullet$] {\it{Process Dynamics and Control}}, Upper-level undergraduate laboratory, University of Alberta, Fall 2005.
+	\item[\tiny$\bullet$] {\it{Modelling Process Dynamics}}, Upper-level undergraduate \& graduate lab including seminar, University of Alberta, Winter 2005.
+\end{itemize}
+%\begin{tabular*}{6.65in}{l@{\extracolsep{\fill}}r}
+%	{\textbf{Graduate Teaching Assistant, Oregon State University}, School of MIME} & {2017} \\
+%	%	{School of Mechanical, Industrial, and Manufacturing Engineering} & {}
+%\end{tabular*}
+%%\vspace{-10pt}
+%\begin{itemize}
+%	\item[$\circ$] {\it{Statistical Quality Control}}, Upper-level undergraduate laboratory, Fall 2017.
+%\end{itemize}
+%
+%\begin{tabular*}{6.65in}{l@{\extracolsep{\fill}}r}
+%	{\textbf{Graduate Teaching Assistant, University of Alberta}, Chemical and Materials Engineering} & {2005}\\
+%	%	{Department of Chemical and Materials Engineering} & {}
+%\end{tabular*}
+%\vspace{-10pt}
+%\begin{itemize}
+%	\item[$\circ$] \it{Process Dynamics \& Control}\vspace{-5pt}%, Upper-level undergraduate course.
+%	\item[$\circ$] \it{Modelling Process Dynamics}%, Upper-level undergraduate and graduate course.
+%\end{itemize}
+
+%\begin{itemize}
+%	\item[$\circ$] {\it{Process Dynamics and Control}}, Upper-level undergraduate laboratory, Fall 2005.
+%	\vspace{-5pt}
+%	\item[$\circ$] {\it{Modelling Process Dynamics}}, Upper-level undergraduate \& graduate lab including seminar, Winter 2005.
+%\end{itemize}
+%	\begin{itemize}
+%	\item[\tiny$\bullet$] Designed lab experiments, prepared course assignments, led seminar discussions, held office hours, and graded papers for the following courses:
+%	\begin{itemize}
+%	\item[$\circ$] {\it{Process Dynamics and Control}}, Upper-level undergraduate laboratory, Fall 2005.
+%\begin{itemize}
+%\item[\tiny$\bullet$] Taught lab classes on process modelling, transient analysis and feedback control systems.
+%\item[\tiny$\bullet$] Supervised approximately 40 undergraduate students, graded lab reports, and conducted weekly course evaluations.
+%\end{itemize}
+
+%	\item[$\circ$] {\it{Modelling Process Dynamics}}, Upper-level undergraduate and graduate lab including seminar, Winter 2005.
+%\begin{itemize}
+%\item[\tiny$\bullet$] Designed lab activities and course assignments focusing on mechanistic and empirical modelling of process dynamics including  model fitting and regression analysis.%, continuous and discrete time models.
+%\item[\tiny$\bullet$] Led seminar discussions and held weekly office hours for approximately 15 graduate and undergraduate students and graded papers.
+%First-principles modeling: State-Space representation, Transfer functions, Discrete models. Black-box modeling: System identification, parametric and non-parametric models, model structure validation and residual analysis.
+%\end{itemize}
+%	\end{itemize}
+%\end{itemize}
+
+
+% TECHNICAL SKILLS
+%\vspace{8pt}
+\section*{Additional Skills} %-------------------------------------------------
+\vspace{5pt}
+{\renewcommand{\arraystretch}{0.5}
+\begin{itemize}
+	\item[\tiny$\bullet$] Project management for technology, business case development, techno-economic analysis, joint intellectual property contract negotiation, and technology commercialization strategy.
+		
+	\item[\tiny$\bullet$] Computer skills: Windows/Linux, Java, Python, C, VB, VBA, R, CPLEX, Lingo, MATLAB, COMSOL, \& Crystal ball. Mastery of MS Office Suite.
+	
+%	\item[\tiny$\bullet$] Simulation software: MATLAB, COMSOL, HYSYS, Aspen Plus, Equation-Oriented (EO) Modelling. %Basic knowledge of CMG STARS.
+	\item[\tiny$\bullet$] DeltaV and Honeywell control systems platforms, operator Human-Machine Interface design, data historian, and database administration.
+	
+	%\item[\tiny$\bullet$] Web page development: HTML, CSS, JavaScript, Photoshop, Illustrator, and Dreamweaver.
+		
+%	\item[\tiny$\bullet$] Operational documents: Process Flow Diagrams, Piping {\footnotesize\&} Instrumentation Diagrams, control narratives, and Standard Operating Procedures.%, control logic diagrams, shutdown keys, instrument loop diagrams.
+	
+\end{itemize}
+
+
+\vspace{8pt}
+% PROFESSIONAL AFFILIATIONS %and Memberships
+\section*{Professional Affiliations} %-------------------------------------------------
+\vspace{5pt}
+{\renewcommand{\arraystretch}{1.1}
+	
+	\begin{tabular}{p{0.75in} p{5.6in}}
+		{\small 2009-Present} & Licensed Professional Engineer, The Association of Professional Engineers and Geoscientists of Alberta, Canada.\\ %,  (APEGA)
+		{\small 2017-Present} & Member, Institute of Industrial \& Systems Engineers\\
+		{\small 2014-Present} & Member, Society of Petroleum Engineers\\
+		%{\small 2015-2017} & Member, Canadian Heavy Oil Association (CHOA)\\
+		%{\small 2006-2010} & Member, Canadian Society for Chemical Engineering (CSChE)\\
+		%{\small 2005-2009} & Member, International Society of Automation (ISA)\\
+		%{\small 2005} & Member, Canadian Institution of Mining, Metallurgy and Petroleum (CIM)\\
+	\end{tabular}
+
+%\newpage
+%\vspace{3pt}
+
+
+%{\renewcommand{\arraystretch}{1.5} % Set this back to what it was before
+\vspace{8pt}
+% PUBLICATIONS
+\section*{Publications and Presentation} %--------------------------------------------------------------
+\vspace{5pt}
+\begin{itemize}
+	%	\item[\tiny$\bullet$] \textbf{Tiong, A.} and Vergara, H. A., 2019, Interdependent Critical Infrastructure Resilience Evaluation for Different Facility Network Configurations, Proceedings of the 2019 Institute of Industrial and Systems Engineers Annual Conference, Orlando, Florida, USA, May 18-21.
+	
+	%\item \textbf{Conference Proceeding}
+	\item[\tiny$\bullet$] Diaz-Goano, C., \textbf{Tiong, A.}, and Herring, H., 2015, New tools for new technology - OASIS: a multiphysics engineering simulation software for "What-If Physics", Proceedings of the 2015 World Heavy Oil Congress, Edmonton, Alberta, Canada, March 24-26.
+	
+	%\item \textbf{Journal Article} 
+	\item[\tiny$\bullet$] \textbf{Chaisantikulwat, A.}, Diaz-Goano, C., and Meadows, E.S., 2008, Dynamic modelling and control of planar anode-supported solid oxide fuel cell, {\it Journal of Computers and Chemical Engineering} 32(10), 2365-2381. %\href{http://dx.doi.org/10.1016/j.compchemeng.2007.12.003}{\small {\sc{doi}}: 10.1016/j.compchemeng.2007.12.003.}
+	
+	%\item \textbf{Conference Presentation}
+	\item[\tiny$\bullet$] \textbf{Chaisantikulwat, A.} and Meadows, E.S., 2005, Dynamic modelling and control of a solid oxide fuel cell, First International Symposium on Fuel Cell and Hydrogen Technologies, Calgary, Alberta, Canada, August 21-24.
+\end{itemize}
+
+% REFERENCES
+%\section*{References} 
+%%-------------------------------------------------
+%%MAKE COLUMNS
+%{\renewcommand{\arraystretch}{1.0}
+%	
+%	\begin{tabular}{p{3.0in} p{0.01in} p{3.0in}}
+%		{\textbf{Carolina Diaz-Goano}} & {} & {\textbf{Edward Scott Meadows}}\\
+%		{Former Assistant Professor, Chemical and Materials Engineering, University of Alberta} & {} & {Former Assistant Professor, Chemical and Materials Engineering, University of Alberta}\\
+%		{+1 (403) 889 -- 5909} & {} & {+1 (780) 504 -- 3181}\\
+%		{carolina@ualberta.net} & {} & {esmeadows@gmail.com}\\
+%		{} & {} & {}\\
+%		
+%		{\textbf{Brian Gregg}} & {} & { \textbf{Errol Goberdhansingh}}\\
+%		{Manager, GE Global Research - Canada} & {} & {Uncertainty and Optimization Lead}\\
+%		{General Electric, Calgary, Alberta} & {} & {Computer Modelling Group Ltd., Calgary, Alberta}\\
+%		{+1 (403) 775 -- 8677} & {} & {+1 (403) 606 -- 7206}\\
+%		{brianjames.gregg@ge.com} & {} & {errolg@shaw.ca}\\
+%		%{} & {} & {}\\
+%	\end{tabular}
+%{\renewcommand{\arraystretch}{1.0}
+	
+%\begin{itemize}
+%	\vspace{1pt}
+%	\item \textbf{Carolina Diaz-Goano}, Thesis Advisor
+%	\\ Former Assistant Professor, Chemical and Materials Engineering, University of Alberta%\\Position: Senior Product Engineer
+%	%\\Employer: 3esi-Enersight, Calgary, AB, Canada
+%	\\+1 (403) 889 -- 5909,  {{carolina@ualberta.net}}
+%	%Email: {\tt{carolina.diaz-goano@3esi-Enersight.com}}
+%	%\\Relationship: Former M.Sc. Thesis Advisor and Assistant Professor at the University of Alberta
+%	\vspace{4pt}
+%	
+%	\item \textbf{Edward Scott Meadows}, Thesis Advisor 
+%	\\ Former Assistant Professor, Chemical and Materials Engineering, University of Alberta
+%	%\\Position: Owner/Partner
+%	%\\Employer: 7 degrees wine|beer|spirits, Edmonton, AB, Canada
+%	\\ +1 (780) 504 -- 3181, {{esmeadows@gmail.com}}
+%	%\\Relationship: Former M.Sc. Thesis Advisor and Assistant Professor at the University of Alberta
+%	\vspace{4pt}
+%	
+%	\item \textbf{Brian Gregg}, Manager, GE Global Research - Canada
+%	\\ General Electric, Calgary, Alberta
+%	\\ +1 (403) 775 -- 8677, {{brianjames.gregg@ge.com}}
+%	%\\Relationship: Joint Technology Program Manager at General Electrics Canada
+%	
+%	\item \textbf{Errol Goberdhansingh},  Staff Software Engineer, Uncertainty and Optimization Lead
+%	\item Computer Modelling Group Ltd., Calgary, Alberta
+%	\\ +1 (403) 606 -- 7206
+%	\\ {errolg@shaw.ca}
+%\end{itemize}
+
+%\begin{itemize}
+%	\item \textbf{Doug Lutz, P.Eng.}
+%	\\Position: Principal Process Automation Engineer
+%	\\Employer: NOVA Chemicals Manufacturing West, Joffre, AB, Canada
+%	\\Phone: +1 (403) 352 -- 8760
+%	\\Email: {\tt{Doug.Lutz@novachem.com}}
+%	\\Relationship: Former colleague at NOVA Chemicals
+%\end{itemize}
+
+% PROFESSIONAL TRAINING
+%\section*{Professional Training} %-------------------------------------------------
+%\begin{itemize}
+%	\item 
+%\begin{tabular}{p{0.25in} p{5.65in}}
+%	{\footnotesize 2015} & Business Case Development, General Electric\\
+%	{\footnotesize 2014} & Heavy Oil Recovery, Society of Petroleum Engineers\\
+%	{\footnotesize 2012} & The 7 Habits of Highly Effective People, FranklinCovey\\
+%	{\footnotesize 2012} & DeltaV Implementation II, Emerson Process Management\\
+%	{\footnotesize 2011} & DeltaV Implementation I, Emerson Process Management\\
+%	{\footnotesize 2010} & Designing Effective Operator Human-Machine Interfaces, Human Centered Solutions\\
+%	{\footnotesize 2009} & Honeywell eXperion PKS Graphics Design and Building, Honeywell Automation College\\
+%	{\footnotesize 2007} & Pavilion8 Training for Advanced Process Control Application, Rockwell Automation\\
+%	{\footnotesize 2007} & Honeywell APP Node AM/CL Implementation using the Data Entity Builder, Honeywell Automation College\\
+%	{\footnotesize 2007} & Hazard Identification and Risk Assessment (HIRA) for Process Safety and Risk Management, NOVA Chemicals\\
+%	{\footnotesize 2007} & Kepner-Tregoe (KT) Problem Analysis\\
+%	{\footnotesize 2006} & Process Safety by Design, NOVA Chemicals\\
+%\end{tabular}
+%\end{itemize}
+
+%\newpage
+
+% VOLUNTEER WORK
+%\section*{Volunteer Work} %-------------------------------------------------
+%
+%\begin{itemize}
+%	\item 
+%	\begin{tabular}{p{0.6in} p{5.4in}}
+%		{\footnotesize 2016} & Grow Calgary, Calgary, AB\\
+%		{\footnotesize 2015} & Seniors Secret Service, Calgary, AB\\
+%		{\footnotesize 2014} & Operation Minerva, Alberta Women's Science Network, Calgary, AB\\
+%		{\footnotesize 2011--2012} & Green Ambassador, Suncor's environmental sustainability initiatives, Calgary, AB\\
+%		{\footnotesize 2009--2010} & Event Planner and Canvasser, United Way of Central Alberta Campaign, Red Deer, AB\\
+%		{\footnotesize 2008-2010} & Kerry Wood Nature Center, Red Deer, AB\\
+%		{\footnotesize 2010} & Ponoka Rising Sun Clubhouse, Ponoka, AB\\
+%		{\footnotesize 2009} & Red Deer Clothing Bank, Red Deer, AB\\
+%		{\footnotesize 2008} & Central Alberta AIDS Network Society, Red Deer, AB\\
+%		{\footnotesize 2007} & Habitat For Humanity, Red Deer, AB\\
+%		{\footnotesize 2002} & Cultural Representative, Edmonton Heritage Festival, Edmonton, AB\\
+%		{\footnotesize 2001--2002} & Note-taker for hard of hearing classmate, University of Alberta\\
+%		{\footnotesize 2001} & Skating supervisor for Campus Recreation at the University of Alberta\\
+%		%{\footnotesize 2001} & Website Administrator, Thai Students Association, University of Alberta\\
+%	\end{tabular}
+%\end{itemize}
+
+\end{document}
