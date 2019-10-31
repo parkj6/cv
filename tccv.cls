@@ -72,7 +72,7 @@
     \begin{center}
 	\vskip-\lastskip%
 	{\usekomafont{part} #1} \medskip\\
-	{\fontfamily{pzc}\selectfont\Huge }%Curriculum vitae}
+	{\fontfamily{pzc}\selectfont\large}% A Nerd With a Personality}
 	\bigskip
     \end{center}]}
 
@@ -105,16 +105,17 @@
 % \personal[optional: web site without scheme (no http:// prefix)]
 %          {address}{phone number}{email}
 % ]|
-\newcommand\personal[4][]{%
+\newcommand\personal[5][]{%
     \needspace{0.5\textheight}%
     \newdimen\boxwidth%
     \boxwidth=\dimexpr\linewidth-2\fboxsep\relax%
     \colorbox[HTML]{F5DD9D}{%
     \begin{tabularx}{\boxwidth}{c|X}
-    \Writinghand & {#2}\smallskip\\
-    \Telefon     & {#3}\smallskip\\
-    \Letter      & \href{mailto:#4}{#4}
+    \Writinghand & {#3}\smallskip\\
+    \Telefon     & {#4}\smallskip\\
+    \Letter      & \href{mailto:#5}{#5}
     \ifstrempty{#1}{}{\smallskip\\ \Lightning & \href{http://#1}{#1}}
+    \ifstrempty{#2}{}{\smallskip\\ \Lightning & \href{http://#2}{#2}}
     \end{tabularx}}}
 
 % Every \item can be followed by one or more paragraphs
